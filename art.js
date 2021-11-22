@@ -13,9 +13,4 @@ function insert(imageJSON){
     imageHTML.src = imageJSON;
     document.querySelector('body').appendChild(imageHTML);
 
-    /*let imageHTML = document.createElement('img');
-    imageHTML.src = imageJSON;
-    let body = document.querySelector('body');
-    body.append(imageHTML);*/
-
 }
