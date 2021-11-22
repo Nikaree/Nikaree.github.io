@@ -10,7 +10,7 @@ fetch('art.json').then(response => {
 function insert(imageJSON){
     
     let imageHTML = new Image();
-    htmlImageElement.src = imageJSON;
+    imageHTML.src = imageJSON;
     document.querySelector('body').appendChild(imageHTML);
 
     /*let imageHTML = document.createElement('img');
