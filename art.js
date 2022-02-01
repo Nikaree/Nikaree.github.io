@@ -11,6 +11,6 @@ function insert(imageJSON){
     
     let imageHTML = new Image();
     imageHTML.src = imageJSON;
-    document.querySelector('body').appendChild(imageHTML);
+    document.getElementBiClassName("gg").appendChild(imageHTML);
 
 }
